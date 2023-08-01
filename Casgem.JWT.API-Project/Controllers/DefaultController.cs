@@ -19,7 +19,7 @@ namespace Casgem.JWT.API_Project.Controllers
 		[Authorize]
 		public IActionResult CustomerList()
 		{
-			return Ok("Müşteri listesine eriştiniz...");
+			return Ok("Müşteri listesine eriştiniz....");
 		}
 	}
 }
